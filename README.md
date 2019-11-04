@@ -4,10 +4,12 @@
 
 ### Application
 It is a basic web chat application which live updates and persistent storage using Flask(flask-socketio) and Mongodb.
+
 [The source of application code](https://codeburst.io/building-your-first-chat-application-using-flask-in-7-minutes-f98de4adfa5d)
 
 ### Database
 The Mongodb is represented as a tree nodes. There are one primary node and two secondary nodes.
+
 [The source of docker config](https://37yonub.ru/articles/mongo-replica-set-docker-localhost)
 
 ## Make it work
