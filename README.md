@@ -41,12 +41,10 @@ rs.config()
 ```
 
 ## First step
-
-(/Users/madina.gafarova/Innopolis/DS/labs\ task/lab11/screenshots/Screenshot\ 2019-11-05\ at\ 00.45.04.png)
+Screenshot 2019-11-05 at 00.45.04
 
 
 ## Second step
-(/Users/madina.gafarova/Innopolis/DS/labs\ task/lab11/screenshots/Screenshot\ 2019-11-05\ at\ 00.49.50.png)
-
+Screenshot 2019-11-05 at 00.49.50
 
 [Screenshots](https://github.com/gafmn/flask-web-chat/tree/master/screenshots)
