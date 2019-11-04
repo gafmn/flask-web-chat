@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  mongo-primary:
+    build: mongodb
+    image: gafmnd/mongo:latest
+    environment:
+      MONGO_PRIMARY_HOST: mongo-primary
+      MONGO_SECONDARY_HOST1: mongo-secondary1
+      MONGO_SECONDARY_HOST2: mongo-secondary2
+
+  mongo-secondary1:
+    build: mongodb
+    image: gafmnd/mongo:latest
+
+  mongo-secondary2:
+    build: mongodb
+    image: gafmnd/mongo:latest
+
+  application:
+    build: flask-chat-app
+    image: gafmnd/flask-chap-app:latest
+    ports:
+      - "80:8000"
+    environment:
+      MONGO_URI: mongodb://mongo-primary,mongo-secondary1,mongo-secondary2/?replicaSet=rs0
