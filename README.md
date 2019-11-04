@@ -41,9 +41,9 @@ rs.config()
 ```
 
 ## First step
-https://github.com/gafmn/flask-web-chat/blob/master/screenshots/Screenshot%202019-11-05%20at%2000.45.04.png
+!(https://github.com/gafmn/flask-web-chat/blob/master/screenshots/Screenshot%202019-11-05%20at%2000.45.04.png)
 
 ## Second step
-https://github.com/gafmn/flask-web-chat/blob/master/screenshots/Screenshot%202019-11-05%20at%2000.49.50.png
+!(https://github.com/gafmn/flask-web-chat/blob/master/screenshots/Screenshot%202019-11-05%20at%2000.49.50.png)
 
 [Screenshots](https://github.com/gafmn/flask-web-chat/tree/master/screenshots)
